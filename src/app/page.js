@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { SubmitButton } from '@/components/atoms/submit-button';
 import { getDaysElapsed, getHaabDate, getTzolkinDate } from '@/utils';
 import styles from './page.module.css';
 
@@ -30,8 +31,8 @@ const Page = () => {
     <main className={styles.main}>
       <label htmlFor="date">Select a date:</label>
       <input type="date" id="date" name="date" onChange={(e) => setDisabled(!Boolean(e.target.value))}/>
-      <button type="button" id="submit" onClick={handleSubmit} disabled={disabled}>Submit</button>
-      <p>Tzol'in date: {tzolkinDate}</p>
+      <SubmitButton onClick={handleSubmit} disabled={disabled}/>
+      <p>Tzolk&aposin date: {tzolkinDate}</p>
       <p>Haab date: {haabDate}</p>
     </main>
   );
