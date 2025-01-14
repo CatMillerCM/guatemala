@@ -1,0 +1,12 @@
+.button {
+  background-color: var(--color-mayan-green);
+  color: var(--color-mayan-beige);
+  border: none;
+  border-radius: 4px;
+  height: 2rem;
+  font-size: 1rem;
+  align-self: center;
+  width: 10rem;
+  font-family: inherit;
+  font-weight: bold;
+}
