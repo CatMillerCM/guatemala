@@ -1,9 +1,15 @@
 :root {
-  /* Colour Palette */
+  --color-mayan-red: #ba0003;
+  --color-mayan-blue: #1e3b8a;
+  --color-mayan-green: #045945;
+  --color-mayan-brown: #634e30;
+  --color-mayan-beige: #f5f5dc;
+  --color-black: #000;
 }
 
 body {
   height: 100%;
   margin: 0;
-  overflow-x: hidden;
+  overflow: hidden;
+  background-color: var(--color-mayan-beige);
 }
