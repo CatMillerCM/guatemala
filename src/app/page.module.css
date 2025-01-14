@@ -3,6 +3,41 @@
   flex-direction: column;
   height: 100dvh;
   align-items: center;
-  justify-content: center;
+  padding: 20dvh 2rem 0;
   text-align: center;
+}
+
+.title {
+  color: var(--color-mayan-red);
+}
+
+.info {
+  color: var(--color-mayan-brown);
+}
+
+.calendarContainer {
+  position: absolute;
+  overflow: hidden;
+  bottom: 0;
+  height: auto;
+  width: 100dvw;
+}
+
+.calendarImg {
+  width: 100%;
+  height: auto;
+  margin-bottom: -50%;
+  animation: spin 10s infinite linear;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .calendarContainer {
+    width: 30rem;
+  }
 }
