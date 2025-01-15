@@ -1,0 +1,15 @@
+.glyph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 10rem;
+  height: 10rem;
+  border: solid 2px red;
+}
+
+.glyphInfo, .glyphIntro {
+  color: var(--color-mayan-brown);
+}
