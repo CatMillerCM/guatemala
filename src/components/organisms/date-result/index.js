@@ -16,8 +16,8 @@ const DateResult = ({ haabDate, tzolkinDate, setHaabDate, setTzolkinDate, inputD
       <div className={styles.output}>
         {haabDate && tzolkinDate && <MayanDates haabDate={haabDate} tzolkinDate={tzolkinDate} />}
         <div className={styles.glyphs}>
-          {haabDate && <Glyph glyph={haabDate.split(' ')[1]} />}
-          {tzolkinDate && <Glyph glyph={tzolkinDate.split(' ')[1]} />}
+          {haabDate && <Glyph type='haab' glyph={haabDate.split(' ')[1]} />}
+          {tzolkinDate && <Glyph type='tzolkin' glyph={tzolkinDate.split(' ')[1]} />}
         </div>
       </div>
       <AnotherDateButton setHaabDate={setHaabDate} setTzolkinDate={setTzolkinDate}/>

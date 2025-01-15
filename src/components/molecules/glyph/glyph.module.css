@@ -10,6 +10,16 @@
   border: solid 2px red;
 }
 
+.glyphIntro {
+  min-height: 2.375rem;
+}
+
 .glyphInfo, .glyphIntro {
   color: var(--color-mayan-brown);
+}
+
+@media screen and (min-width: 768px) {
+  .glyphIntro {
+    min-height: unset;
+  }
 }
