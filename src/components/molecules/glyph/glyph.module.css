@@ -12,10 +12,16 @@
 
 .glyphIntro {
   min-height: 2.375rem;
+  color: var(--color-mayan-brown);
 }
 
-.glyphInfo, .glyphIntro {
+.glyphInfo {
   color: var(--color-mayan-brown);
+}
+
+.glyphDefinition {
+  margin-bottom: 0;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 768px) {

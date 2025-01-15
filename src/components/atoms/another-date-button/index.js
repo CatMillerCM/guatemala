@@ -12,7 +12,7 @@ const AnotherDateButton = ({ setHaabDate, setTzolkinDate }) => {
       type="button"
       className={styles.button}
       onClick={handleClick}
-    >Another one!</button>
+    >Convert Another Date</button>
   )
 };
 

@@ -22,4 +22,6 @@
   filter: invert(96%) sepia(80%) saturate(220%) hue-rotate(316deg) brightness(100%) contrast(140%);
   font-family: inherit;
   font-weight: bold;
+  width: max-content;
+  align-self: center;
 }

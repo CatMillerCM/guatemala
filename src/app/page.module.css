@@ -1,14 +1,26 @@
-.main {
+.mainInput, .mainResult {
   display: flex;
   flex-direction: column;
-  height: 85dvh;
   align-items: center;
-  padding: 10dvh 2rem 0;
+  justify-content: center;
   text-align: center;
+}
+
+.mainInput {
+  height: calc(100dvh - calc(100dvw / 2));
+}
+
+.mainResult, .border {
   border: solid 4px var(--color-mayan-blue);
-  margin: 1rem;
   outline: solid 3px var(--color-mayan-red);
   outline-offset: 3px;
+  height: calc(100dvh - 6.5rem);
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.inputContainer {
+  z-index: 1;
 }
 
 .title {
@@ -41,7 +53,21 @@
 }
 
 @media screen and (min-width: 768px) {
+  .mainInput {
+    height: calc(100dvh - calc(30rem / 2));
+  }
+
   .calendarContainer {
     width: 30rem;
+  }
+}
+
+@media screen and (max-height: 790px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  
+  .info {
+    font-size: 0.75rem;
   }
 }
