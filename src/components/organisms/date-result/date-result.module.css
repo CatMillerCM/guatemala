@@ -1,0 +1,34 @@
+.resultPage {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.intro {
+  color: var(--color-mayan-green);
+  margin-bottom: 0;
+}
+
+.gregorianDate {
+  font-weight: bold;
+  color: var(--color-mayan-green);
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.leadIn {
+  color: var(--color-mayan-blue);
+  margin-bottom: 0;
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.glyphs {
+  display: flex;
+  gap: 1rem;
+}

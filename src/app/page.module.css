@@ -1,10 +1,14 @@
 .main {
   display: flex;
   flex-direction: column;
-  height: 100dvh;
+  height: 85dvh;
   align-items: center;
-  padding: 20dvh 2rem 0;
+  padding: 10dvh 2rem 0;
   text-align: center;
+  border: solid 4px var(--color-mayan-blue);
+  margin: 1rem;
+  outline: solid 3px var(--color-mayan-red);
+  outline-offset: 3px;
 }
 
 .title {

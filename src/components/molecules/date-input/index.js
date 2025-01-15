@@ -6,7 +6,7 @@ import { SubmitButton } from '@/components/atoms/submit-button';
 import { getDaysElapsed, getHaabDate, getTzolkinDate } from '@/utils';
 import styles from './date-input.module.css';
 
-const DateInput = ({ setTzolkinDate, setHaabDate }) => {
+const DateInput = ({ setTzolkinDate, setHaabDate, setInputDate }) => {
   const [disabled, setDisabled] = useState(true);
 
   const getMayanDates = (date) => {
@@ -23,6 +23,7 @@ const DateInput = ({ setTzolkinDate, setHaabDate }) => {
   const handleSubmit = () => {
     const dateInput = document.getElementById('date').value;
 
+    setInputDate(dateInput);
     getMayanDates(dateInput);
   };
 
@@ -42,7 +43,8 @@ const DateInput = ({ setTzolkinDate, setHaabDate }) => {
 
 DateInput.propTypes = {
   setTzolkinDate: PropTypes.func.isRequired,
-  setHaabDate: PropTypes.func.isRequired
+  setHaabDate: PropTypes.func.isRequired,
+  setInputDate: PropTypes.func.isRequired
 };
 
 export { DateInput };

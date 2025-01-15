@@ -4,8 +4,8 @@ import styles from './mayan-dates.module.css';
 const MayanDates = ({ haabDate, tzolkinDate }) => {
   return (
     <div className={styles.mayanDates}>
-      <p>Haab date: {haabDate}</p>
-      <p>Tzolk'in date: {tzolkinDate}</p>
+      <p>Haab date: <span className={styles.output}>{haabDate}</span></p>
+      <p>Tzolk'in date: <span className={styles.output}>{tzolkinDate}</span></p>
     </div>
   )
 };
