@@ -8,3 +8,9 @@
 .output {
   font-weight: bold;
 }
+
+@media screen and (max-height: 790px) {
+  .mayanDates p {
+    font-size: 1rem;
+  }
+}
