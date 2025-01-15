@@ -10,7 +10,7 @@ const DateResult = ({ haabDate, tzolkinDate, setHaabDate, setTzolkinDate, inputD
     <div className={styles.resultPage}>
       <div className={styles.input}>
         <p className={styles.intro}>For the date:</p>
-        <p className={styles.gregorianDate}>{formatGregorianDate(inputDate)}</p>
+        <h2 className={styles.gregorianDate}>{formatGregorianDate(inputDate)}</h2>
         <p className={styles.leadIn}>The Mayan Dates are:</p>
       </div>
       <div className={styles.output}>

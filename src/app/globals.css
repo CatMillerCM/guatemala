@@ -1,10 +1,17 @@
 :root {
+  /* Colour Palette */
   --color-mayan-red: #ba0003;
   --color-mayan-blue: #1e3b8a;
   --color-mayan-green: #045945;
   --color-mayan-brown: #634e30;
   --color-mayan-beige: #f5f5dc;
   --color-black: #000;
+
+  /* Font Sizes */
+  --font-size-extra-large: 2rem;
+  --font-size-large: 1.5rem;
+  --font-size-medium: 1.25rem;
+  --font-size-small: 1rem;
 }
 
 body {
@@ -12,4 +19,37 @@ body {
   margin: 0;
   overflow: hidden;
   background-color: var(--color-mayan-beige);
+}
+
+h1 {
+  font-size: var(--font-size-extra-large);
+}
+
+h2 {
+  font-size: var(--font-size-large);
+}
+
+p {
+  font-size: var(--font-size-small);
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  :root {  
+    /* Font Sizes */
+    --font-size-extra-large: 3rem;
+    --font-size-large: 1.75rem;
+    --font-size-medium: 1.5rem;
+    --font-size-small: 1.25rem;
+  }
+}
+
+@media screen and (max-height: 790px) and (max-width: 400px) {
+  :root {  
+    /* Font Sizes */
+    --font-size-extra-large: 1.5rem;
+    --font-size-large: 1.25rem;
+    --font-size-medium: 1rem;
+    --font-size-small: 0.75rem;
+  }
 }

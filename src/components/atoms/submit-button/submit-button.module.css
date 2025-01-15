@@ -4,7 +4,7 @@
   border: none;
   border-radius: 4px;
   height: 2rem;
-  font-size: 1rem;
+  font-size: var(--font-size-small);
   align-self: center;
   width: 6rem;
   font-family: inherit;

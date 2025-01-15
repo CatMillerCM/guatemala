@@ -1,16 +1,10 @@
-.mayanDates p {
+.mayanDates h2 {
   text-align: center;
   color: var(--color-mayan-red);
-  font-size: 1.5rem;
   margin: 0;
+  font-weight: normal;
 }
 
 .output {
   font-weight: bold;
-}
-
-@media screen and (max-height: 790px) {
-  .mayanDates p {
-    font-size: 1rem;
-  }
 }

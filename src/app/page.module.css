@@ -29,6 +29,7 @@
 
 .info {
   color: var(--color-mayan-brown);
+  margin-bottom: 1rem;
 }
 
 .calendarContainer {
@@ -54,20 +55,20 @@
 
 @media screen and (min-width: 768px) {
   .mainInput {
+    height: calc(100dvh - calc(40rem / 2));
+  }
+
+  .calendarContainer {
+    width: 40rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mainInput {
     height: calc(100dvh - calc(30rem / 2));
   }
 
   .calendarContainer {
     width: 30rem;
-  }
-}
-
-@media screen and (max-height: 790px) {
-  .title {
-    font-size: 1.5rem;
-  }
-  
-  .info {
-    font-size: 0.75rem;
   }
 }

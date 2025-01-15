@@ -12,7 +12,6 @@
 .gregorianDate {
   font-weight: bold;
   color: var(--color-mayan-green);
-  font-size: 1.5rem;
   margin-top: 0;
 }
 
@@ -32,10 +31,4 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-}
-
-@media screen and (max-height: 790px) {
-  .gregorianDate {
-    font-size: 1rem;
-  }
 }
