@@ -9,7 +9,7 @@ import { formatGregorianDate } from '@/utils/format-gregorian-date';
 import { ShareButton } from '@/components/atoms/share-button';
 import styles from './date-result.module.css';
 
-const DateResult = ({ haabDate, tzolkinDate, setHaabDate, setTzolkinDate, inputDate }) => {
+const DateResult = ({ haabDate, tzolkinDate, setHaabDate, setTzolkinDate, gregorianDate }) => {
   const resultRef = useRef(null);
 
   return (
@@ -17,7 +17,7 @@ const DateResult = ({ haabDate, tzolkinDate, setHaabDate, setTzolkinDate, inputD
       <div ref={resultRef}>
       <div className={styles.input}>
         <p className={styles.intro}>For the date:</p>
-        <h2 className={styles.gregorianDate}>{formatGregorianDate(inputDate)}</h2>
+        <h2 className={styles.gregorianDate}>{formatGregorianDate(gregorianDate)}</h2>
         <p className={styles.leadIn}>The Mayan Dates are:</p>
       </div>
       <div className={styles.output}>
@@ -41,7 +41,7 @@ DateResult.propTypes = {
   tzolkinDate: PropTypes.string.isRequired,
   setHaabDate: PropTypes.func.isRequired,
   setTzolkinDate: PropTypes.func.isRequired,
-  inputDate: PropTypes.string.isRequired
+  gregorianDate: PropTypes.string.isRequired
 };
 
 export { DateResult };

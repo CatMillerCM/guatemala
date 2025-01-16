@@ -10,7 +10,7 @@ import styles from './page.module.css';
 const Page = () => {
   const [tzolkinDate, setTzolkinDate] = useState('');
   const [haabDate, setHaabDate] = useState('');
-  const [inputDate, setInputDate] = useState('');
+  const [gregorianDate, setGregorianDate] = useState('');
 
   if (tzolkinDate && haabDate) {
     return (
@@ -20,7 +20,7 @@ const Page = () => {
           tzolkinDate={tzolkinDate}
           setHaabDate={setHaabDate}
           setTzolkinDate={setTzolkinDate}
-          inputDate={inputDate}
+          gregorianDate={gregorianDate}
         />
       </main>
     )
@@ -35,7 +35,7 @@ const Page = () => {
           <DateInput
             setHaabDate={setHaabDate}
             setTzolkinDate={setTzolkinDate}
-            setInputDate={setInputDate}
+            setGregorianDate={setGregorianDate}
           />
         </div>
         <div className={styles.calendarContainer}>
