@@ -10,8 +10,7 @@ const DateInput = ({ setTzolkinDate, setHaabDate, setInputDate }) => {
   const [disabled, setDisabled] = useState(true);
 
   const getMayanDates = (date) => {
-    const gregorianDate = new Date(date);
-    const daysElapsed = getDaysElapsed(gregorianDate);
+    const daysElapsed = getDaysElapsed(date);
 
     const tzolkinDate = getTzolkinDate(daysElapsed);
     const haabDate = getHaabDate(daysElapsed);

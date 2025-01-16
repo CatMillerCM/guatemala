@@ -1,4 +1,4 @@
-const haabMonths = {
+const haabData = {
   'Pop': {
       definition: 'Mat',
       info: 'Pop is the first month of the Haab\' calendar, symbolizing community and marriage. It marks the beginning of the year, a time for gift-giving and festivities. This period is associated with leadership and the establishment of new beginnings.'
@@ -77,7 +77,7 @@ const haabMonths = {
   }
 };
 
-const tzolkinGlyphs = {
+const tzolkinData = {
   'Imix\'': {
       definition: 'Crocodile',
       info: 'Imix\' symbolizes the sea, rivers, and lakes. It is associated with the nawal of the sea and is a day to ask for rain and the calming of mental and spiritual disorders. Those born on this day are intuitive, creative, and good workers.'
@@ -161,6 +161,6 @@ const tzolkinGlyphs = {
 };
 
 export {
-  haabMonths,
-  tzolkinGlyphs
+  haabData,
+  tzolkinData
 }
