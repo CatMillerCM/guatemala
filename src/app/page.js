@@ -31,7 +31,7 @@ const Page = () => {
       <main className={styles.mainInput}>
         <div className={styles.inputContainer}>
           <h1 className={styles.title}>Mayan Calendar Converter</h1>
-          <p className={styles.info}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <p className={styles.info}>The Mayan calendar is compromised of 3 interconnected cycles:<br></br> <span className={styles.calendarNames}>the Tzolk’in, the Haab, and the Long Count.</span><br></br>These calendars are mathematically precise and deeply rooted in traditions and myths, often tied to stories about the world's creation. <br></br>In many parts of Guatemala (and Mexico), the Mayan calendar is still used today. <br></br><br></br>This converter focuses on the Tzolk’in and Haab calendars, offering you an insight into the signifcance of the numbers and glyphs for the given date.</p>
           <DateInput
             setHaabDate={setHaabDate}
             setTzolkinDate={setTzolkinDate}
@@ -45,6 +45,7 @@ const Page = () => {
             alt="Mayan Calendar"
           />
         </div>
+        <p className={styles.disclaimer}>Disclaimer: While I have researched this content, I cannot guarantee that all information is 100% accurate.</p>
       </main>
     </div>
   );
