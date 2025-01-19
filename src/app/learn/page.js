@@ -1,3 +1,4 @@
+import { HomeButton } from '@/components/atoms/home-button'; 
 import { TopicButton } from '@/components/atoms/topic-button';
 import styles from './learn.module.css';
 
@@ -14,6 +15,7 @@ const Page = () => {
       <TopicButton topic="The Calendar Round" />
       <TopicButton topic="The Lords Of The Night" />
       <p className={styles.disclaimer}>Disclaimer: While I have researched this content, I cannot guarantee that all information is 100% accurate.<br></br>In addition, a lot of this information is lifted from various websites and studies I read while learning about the Mayan Calendar, with some structure help from ChatGPT.<br></br>Please see the references section on the project's readme on Github.</p>
+      <HomeButton />
     </main>
   );
 };
