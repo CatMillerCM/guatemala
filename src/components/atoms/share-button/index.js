@@ -1,7 +1,6 @@
 'use client';
 
 import PropTypes from 'prop-types';
-import { useRef } from 'react';
 import { toPng } from 'html-to-image';
 import styles from './share-button.module.css';
 
