@@ -1,7 +1,11 @@
 .resultPage {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+}
+
+.shareResult {
+  background-color: var(--color-mayan-beige);
+  padding: 1rem;
 }
 
 .intro {
@@ -37,5 +41,11 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  margin-top: 1rem;
+}
+
+.twoButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: center;
 }
