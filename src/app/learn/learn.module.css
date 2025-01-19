@@ -1,0 +1,36 @@
+.main {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  border: solid 4px var(--color-mayan-blue);
+  outline: solid 3px var(--color-mayan-red);
+  outline-offset: 3px;
+  height: calc(100dvh - 4.5rem);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.title {
+  color: var(--color-mayan-red);
+}
+
+.intro {
+  color: var(--color-mayan-brown);
+}
+
+.main a:nth-child(3) button, .main a:nth-child(5) button {
+  background-color: var(--color-mayan-red);
+}
+
+.main a:nth-child(4) button {
+  background-color: var(--color-mayan-green);
+}
+
+.disclaimer {
+  font-size: 0.5rem;
+  color: var(--color-mayan-brown);
+}
