@@ -1,6 +1,5 @@
-.mainInput, .mainResult {
+.mainResult {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -8,20 +7,34 @@
 }
 
 .mainInput {
-  height: calc(100dvh - calc(100dvw / 2) - 3rem);
+  height: calc(100dvh - 1.25rem);
+  display: grid;
+  grid-template-rows: auto;
+  text-align: center;
+  overflow: hidden;
+  gap: 0.5rem;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem 1.5rem 0;
+}
+
+.calendarContainer {
+  display: flex;
+  overflow: hidden;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .mainResult, .border {
   border: solid 4px var(--color-mayan-blue);
   outline: solid 3px var(--color-mayan-red);
   outline-offset: 3px;
-  height: calc(100dvh - 4.5rem);
+  height: calc(100dvh - 2.5rem);
   margin: 1rem;
-  padding: 1rem;
-}
-
-.inputContainer {
-  z-index: 1;
 }
 
 .title {
@@ -42,12 +55,11 @@
   margin-top: 0.5rem;
 }
 
-.calendarContainer {
-  position: absolute;
-  overflow: hidden;
-  bottom: 0;
+.imageContainer {
+  width: 100%;
   height: auto;
-  width: 100dvw;
+  max-height: 100%;
+  overflow: hidden;
 }
 
 .calendarImg {
@@ -64,21 +76,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  .mainInput {
-    height: calc(100dvh - calc(40rem / 2) - 3rem);
-  }
-
-  .calendarContainer {
+  .imageContainer {
     width: 40rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .mainInput {
-    height: calc(100dvh - calc(30rem / 2) - 3rem);
-  }
-
-  .calendarContainer {
+  .imageContainer {
     width: 30rem;
   }
 }
