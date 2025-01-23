@@ -33,4 +33,5 @@
 .disclaimer {
   font-size: 0.5rem;
   color: var(--color-mayan-brown);
+  line-height: 0.6rem;
 }
