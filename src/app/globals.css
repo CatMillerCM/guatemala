@@ -39,7 +39,7 @@ h2 {
 p {
   font-size: var(--font-size-small);
   margin: 0;
-  line-height: 1.35rem;
+  line-height: 1.45rem;
 }
 
 @media screen and (min-width: 768px) {
