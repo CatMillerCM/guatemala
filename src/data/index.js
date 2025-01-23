@@ -80,7 +80,7 @@ const haabData = {
 const tzolkinData = {
   'Imix\'': {
       definition: 'Crocodile',
-      info: 'Imix\' symbolizes the sea, rivers, and lakes. It is associated with the nawal of the sea and is a day to ask for rain and the calming of mental and spiritual disorders. Those born on this day are intuitive, creative, and good workers.'
+      info: 'Imix\' symbolises the sea, rivers, and lakes and is associated with the nawal of the sea. It\'s a day to ask for rain and the calming of mental and spiritual struggles. Those born on this day are intuitive, creative, and good workers.'
   },
   'Ik\'': {
       definition: 'Wind',
@@ -88,7 +88,7 @@ const tzolkinData = {
   },
   'Ak\'b\'al': {
       definition: 'Night',
-      info: 'Ak\'b\'al symbolizes darkness, the underworld, and the realm of the nocturnal jaguar-sun. It is associated with early dawn and morning. This glyph represents the mysteries of the unknown and the subconscious mind.'
+      info: 'Ak\'b\'al symbolises darkness, the underworld, and the realm of the nocturnal jaguar-sun. It is associated with early dawn and morning. This glyph represents the mysteries of the unknown and the subconscious mind.'
   },
   'K\'an': {
       definition: 'Yellow Corn',
@@ -96,7 +96,7 @@ const tzolkinData = {
   },
   'Chikchan': {
       definition: 'Serpent',
-      info: 'Chikchan symbolizes the life force and vitality. It is associated with spiritual awakening and the energy of transformation. This glyph represents primal power and the shedding of old skin for renewal.'
+      info: 'Chikchan symbolises the life force and vitality. It is associated with spiritual awakening and the energy of transformation. This glyph represents primal power and the shedding of old skin for renewal.'
   },
   'Kimi': {
       definition: 'Death',
@@ -108,7 +108,7 @@ const tzolkinData = {
   },
   'Lamat': {
       definition: 'Venus',
-      info: 'Lamat symbolizes the planet Venus and is associated with fertility and abundance. It represents the cycles of the stars and the harmony of the cosmos. This glyph signifies beauty, elegance, and the creative forces of the universe.'
+      info: 'Lamat symbolises the planet Venus and is associated with fertility and abundance. It represents the cycles of the stars and the harmony of the cosmos. This glyph signifies beauty, elegance, and the creative forces of the universe.'
   },
   'Muluk': {
       definition: 'Water',
@@ -116,7 +116,7 @@ const tzolkinData = {
   },
   'Ok': {
       definition: 'Dog',
-      info: 'Ok symbolizes loyalty, guidance, and companionship. It represents the journey of the soul and protection on spiritual paths. This glyph embodies faithfulness and unconditional love.'
+      info: 'Ok symbolises loyalty, guidance, and companionship. It represents the journey of the soul and protection on spiritual paths. This glyph embodies faithfulness and unconditional love.'
   },
   'Chuwen': {
       definition: 'Monkey',
@@ -124,7 +124,7 @@ const tzolkinData = {
   },
   'Eb\'': {
       definition: 'Road',
-      info: 'Eb\' represents the path of life and the journey of the soul. It symbolizes destiny, choices, and the guidance provided by higher forces. This glyph encourages progress and understanding.'
+      info: 'Eb\' represents the path of life and the journey of the soul. It symbolises destiny, choices, and the guidance provided by higher forces. This glyph encourages progress and understanding.'
   },
   'B\'en': {
       definition: 'Reed',
@@ -132,11 +132,11 @@ const tzolkinData = {
   },
   'Ix': {
       definition: 'Jaguar',
-      info: 'Ix symbolizes power, mystery, and the feminine force. It represents the connection to the earth and ancient wisdom. This glyph embodies courage and the ability to navigate the unseen realms.'
+      info: 'Ix symbolises power, mystery, and the feminine force. It represents the connection to the earth and ancient wisdom. This glyph embodies courage and the ability to navigate the unseen realms.'
   },
   'Men': {
       definition: 'Eagle',
-      info: 'Men represents vision, higher perspective, and freedom. It symbolizes the ability to see beyond the ordinary and achieve great heights. This glyph encourages ambition and spiritual insight.'
+      info: 'Men represents vision, higher perspective, and freedom. It symbolises the ability to see beyond the ordinary and achieve great heights. This glyph encourages ambition and spiritual insight.'
   },
   'K\'ib\'': {
       definition: 'Owl/Vulture',
@@ -144,19 +144,19 @@ const tzolkinData = {
   },
   'Kab\'an': {
       definition: 'Earth',
-      info: 'Kab\'an symbolizes harmony, movement, and synchronization with nature. It represents the rhythms of the Earth and the importance of living in balance. This glyph encourages awareness and responsibility for the planet.'
+      info: 'Kab\'an symbolises harmony, movement, and synchronization with nature. It represents the rhythms of the Earth and the importance of living in balance. This glyph encourages awareness and responsibility for the planet.'
   },
   'Etz\'nab\'': {
       definition: 'Flint',
-      info: 'Etz\'nab\' symbolizes clarity, reflection, and the power of discernment. It represents the sharp edge of truth and the ability to cut through illusion. This glyph encourages honesty and self-awareness.'
+      info: 'Etz\'nab\' symbolises clarity, reflection, and the power of discernment. It represents the sharp edge of truth and the ability to cut through illusion. This glyph encourages honesty and self-awareness.'
   },
   'Kawak': {
       definition: 'Storm',
-      info: 'Kawak represents renewal, purification, and the energy of transformation. It symbolizes the forces of nature and the cleansing power of rain. This glyph encourages embracing change and inner growth.'
+      info: 'Kawak represents renewal, purification, and the energy of transformation. It symbolises the forces of nature and the cleansing power of rain. This glyph encourages embracing change and inner growth.'
   },
   'Ajaw': {
       definition: 'Sun',
-      info: 'Ajaw symbolizes enlightenment, life, and unity. It represents the light that guides and nourishes all living things. This glyph embodies fulfillment, wholeness, and spiritual illumination.'
+      info: 'Ajaw symbolises enlightenment, life, and unity. It represents the light that guides and nourishes all living things. This glyph embodies fulfillment, wholeness, and spiritual illumination.'
   }
 };
 
