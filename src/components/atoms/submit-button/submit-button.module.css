@@ -12,3 +12,9 @@
   font-weight: bold;
   cursor: pointer;
 }
+
+.button:disabled {
+  background-color: #617e77;
+  color: #c9c9b1;
+
+}
