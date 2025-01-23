@@ -18,7 +18,7 @@ const DateResult = ({ haabDate, tzolkinDate, setHaabDate, setTzolkinDate, gregor
       <div className={styles.shareResult} ref={resultRef}>
         <div className={styles.input}>
           <p className={styles.intro}>For the date:</p>
-          <h2 className={styles.gregorianDate}>{formatGregorianDate(gregorianDate)}</h2>
+          <h2 className={styles.gregorianDate}>{formatGregorianDate(gregorianDate).toUpperCase()}</h2>
           <p className={styles.leadIn}>The Mayan Dates are:</p>
         </div>
         <div className={styles.output}>

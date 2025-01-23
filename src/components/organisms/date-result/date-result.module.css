@@ -14,7 +14,7 @@
 }
 
 .gregorianDate {
-  font-weight: bold;
+  font-family: 'CivilisationMaya', sans-serif;
   color: var(--color-mayan-green);
   margin-top: 0;
 }

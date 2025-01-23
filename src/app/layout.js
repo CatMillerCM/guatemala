@@ -1,8 +1,8 @@
-import { Montserrat } from "next/font/google";
+import { Nunito_Sans } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 
-const montserrat = Montserrat({
+const nunitoSans = Nunito_Sans({
   subsets: ['latin'],
   weight: ['400', '700'],
 });
@@ -18,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={montserrat.className}>
+      <body className={nunitoSans.className}>
         {children}
       </body>
       <GoogleAnalytics gaId="G-XXK1302NWJ" />

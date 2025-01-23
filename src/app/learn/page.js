@@ -6,7 +6,7 @@ const Page = () => {
   return (
     <main className={styles.main}>
       <div>
-        <h2 className={styles.title}>The Mayan Calenders</h2>
+        <h1 className={styles.title}>THE MAYAN CALENDARS</h1>
         <p className={styles.intro}>Learn more about each traditional calendar by clicking on the relevant button below.</p>
       </div>
       <TopicButton topic="The Haab Calendar" />

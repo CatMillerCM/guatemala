@@ -8,7 +8,7 @@ const Page = ({ params: { url } }) => {
 
   return (
     <main className={styles.main}>
-      <h2 className={styles.title}>{infoPageName}</h2>
+      <h1 className={styles.title}>{infoPageName.toUpperCase()}</h1>
       <p className={styles.info} dangerouslySetInnerHTML={{ __html: calendarInfo[infoPageName] }}></p>
       <div className={styles.buttons}>
         <LearnButton label="Back to Learning Zone" />
