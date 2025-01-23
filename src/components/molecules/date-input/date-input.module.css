@@ -18,8 +18,9 @@
   border-radius: 4px;
   text-align: center;
   padding: 0 1rem;
-  background-color: #8db1f0;
-  filter: invert(96%) sepia(80%) saturate(220%) hue-rotate(316deg) brightness(100%) contrast(140%);
+  color: var(--color-mayan-red);
+  background-color: var(--color-mayan-beige);
+  border: 2px solid var(--color-mayan-red);
   font-family: inherit;
   font-weight: bold;
   width: max-content;
