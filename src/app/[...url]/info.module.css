@@ -1,6 +1,6 @@
 .main {
   text-align: center;
-  min-height: calc(100dvh - 4.5rem);
+  min-height: calc(100dvh - 5.5rem);
   border: solid 4px var(--color-mayan-blue);
   outline: solid 3px var(--color-mayan-red);
   outline-offset: 3px;

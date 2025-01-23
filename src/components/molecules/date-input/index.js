@@ -32,13 +32,15 @@ const DateInput = ({ setTzolkinDate, setHaabDate, setGregorianDate }) => {
   return (
     <div className={styles.dateInput}>
       <label htmlFor="date" className={styles.label}>Select a date:</label>
-      <input
-        type="date"
-        id="date"
-        className={styles.input}
-        onChange={(e) => setDisabled(!Boolean(e.target.value))}
-      />
-      <SubmitButton onClick={handleSubmit} disabled={disabled}/>
+      <div className={styles.buttons}>
+        <input
+          type="date"
+          id="date"
+          className={styles.input}
+          onChange={(e) => setDisabled(!Boolean(e.target.value))}
+        />
+        <SubmitButton onClick={handleSubmit} disabled={disabled}/>
+      </div>
     </div>
   )
 };

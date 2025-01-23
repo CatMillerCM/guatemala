@@ -4,11 +4,6 @@
   align-items: center;
 }
 
-.glyphIntro {
-  min-height: 2.375rem;
-  color: var(--color-mayan-brown);
-}
-
 .glyphInfo {
   color: var(--color-mayan-brown);
 }

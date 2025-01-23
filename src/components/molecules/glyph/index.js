@@ -8,7 +8,6 @@ import styles from './glyph.module.css';
 const Glyph = ({ type, glyph }) => {
   return (
     <div className={styles.glyph}>
-      <p className={styles.glyphIntro}>The {glyph} glyph is:</p>
       <Image
         src={type === 'haab' ? haabGlyphImages[glyph] : tzolkinGlyphImages[glyph]}
         alt={`Image of ${glyph} Glyph`}
