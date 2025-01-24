@@ -1,162 +1,162 @@
 const haabData = {
   'Pop': {
       definition: 'Mat',
-      info: 'Pop is the first month of the Haab calendar, symbolising community and marriage. This period may be associated with new beginnings and gift-giving.'
+      info: 'Pop is the first month of the Haab calendar, symbolising community and marriage.<br>This period may be associated with new beginnings and gift-giving.'
     },
   'Wo': {
       definition: 'Frog',
-      info: 'Wo is the second month of the Haab calendar, and is represented by a frog. This period may be associated with predictions for the future.'
+      info: 'Wo is the second month of the Haab calendar, and is represented by a frog.<br>This period may be associated with predictions for the future.'
   },
   'Sip': {
       definition: 'Stag',
-      info: 'Sip is the third month of the Haab calendar, and is represented by a stag. This period may be associated with hunting success.'
+      info: 'Sip is the third month of the Haab calendar, and is represented by a stag.<br>This period may be associated with hunting success.'
     },
   'Sotz\'': {
       definition: 'Bat',
-      info: 'Sotz\' is the fourth month of the Haab calendar, and is represented by a bat. This period may be associated with upcoming darkness.'
+      info: 'Sotz\' is the fourth month of the Haab calendar, and is represented by a bat.<br>This period may be associated with upcoming darkness.'
     },
   'Sek': {
       definition: 'No known translation',
-      info: 'Sek is the fifth month of the Haab calendar, and has no known translation. This period may be associated with rejecting negativity.'
+      info: 'Sek is the fifth month of the Haab calendar, and has no known translation.<br>This period may be associated with rejecting negativity.'
     },
   'Xul': {
       definition: 'Dog',
-      info: 'Xul is the sixth month of the Haab calendar, and is represented by a dog. This period may be associated with communal gatherings and celebrations.'
+      info: 'Xul is the sixth month of the Haab calendar, and is represented by a dog.<br>This period may be associated with communal gatherings and celebrations.'
     },
   'Yaxk\'in': {
       definition: 'New Sun',
-      info: 'Yaxk\' is the seventh month of the Haab calendar, and signifies the sun god. This period may be associated with renewal and new skills.'
+      info: 'Yaxk\' is the seventh month of the Haab calendar, and signifies the sun god.<br>This period may be associated with renewal and new skills.'
     },
   'Mol': {
       definition: 'Water',
-      info: 'Mol is the eigth month of the Haab calendar, and is represented by water. This period may be associated with rain and hardwork.'
+      info: 'Mol is the eigth month of the Haab calendar, and is represented by water.<br>This period may be associated with rain and hardwork.'
     },
   'Ch\'en': {
       definition: 'Black Storm',
-      info: 'Ch\'en is the ninth month of the Haab calendar, and signifies a black storm. This period may be associated with the moon and reflection.'
+      info: 'Ch\'en is the ninth month of the Haab calendar, and signifies a black storm.<br>This period may be associated with the moon and reflection.'
     },
   'Yax': {
       definition: 'Green Storm',
-      info: 'Yax is the tenth month of the Haab calendar, and signifies a green storm. This period may be associated with the Venus and growth.'
+      info: 'Yax is the tenth month of the Haab calendar, and signifies a green storm.<br>This period may be associated with the Venus and growth.'
     },
   'Sak': {
       definition: 'White Storm',
-      info: 'Sak\' is the eleventh month of the Haab calendar, and signifies a white storm. This period may be associated with the cleansing and forgiveness.'
+      info: 'Sak\' is the eleventh month of the Haab calendar, and signifies a white storm.<br>This period may be associated with the cleansing and forgiveness.'
     },
   'Keh': {
       definition: 'Red Storm',
-      info: 'Keh is the twelfth month of the Haab calendar, and signifies a red storm. This period may be associated with deer and nature.'
+      info: 'Keh is the twelfth month of the Haab calendar, and signifies a red storm.<br>This period may be associated with deer and nature.'
     },
   'Mak': {
       definition: 'A Cover',
-      info: 'Mak is the thirteenth month of the Haab calendar, and means "to enclose" or "to cover". This period may be associated with introspection.'
+      info: 'Mak is the thirteenth month of the Haab calendar, and means "to enclose" or "to cover".<br>This period may be associated with introspection.'
     },
   'K\'ank\'in': {
       definition: 'Yellow Sun',
-      info: 'K\'ank\'in is the fourteenth month of the Haab calendar, and signifies a yellow sun. This period may be associated with our connection to the earth and the sun.'
+      info: 'K\'ank\'in is the fourteenth month of the Haab calendar, and signifies a yellow sun.<br>This period may be associated with our connection to the earth and the sun.'
     },
   'Muwan': {
       definition: 'Owl',
-      info: 'Muwan is the fifteenth month of the Haab calendar, and is represented by a owl. This period may be associated with protection.'
+      info: 'Muwan is the fifteenth month of the Haab calendar, and is represented by a owl.<br>This period may be associated with protection.'
     },
   'Pax': {
       definition: 'Planting Time',
-      info: 'Pax is the sixteenth month of the Haab calendar, and was a time to honour warriors. This period may be associated with future victory.'
+      info: 'Pax is the sixteenth month of the Haab calendar, and was a time to honour warriors.<br>This period may be associated with future victory.'
     },
   'K\'ayab': {
       definition: 'Turtle',
-      info: 'K\'ayab is the seventeenth month of the Haab calendar, and is represented by a turtle. This period may be associated with the moon, femininity and fertility.'
+      info: 'K\'ayab is the seventeenth month of the Haab calendar, and is represented by a turtle.<br>This period may be associated with the moon, femininity and fertility.'
     },
   'Kumk\'u': {
       definition: 'Granary',
-      info: 'Kumk\'u is the eigthteenth month of the Haab calendar, and is represented by maize. This period may be associated with harvesting, sharing and food.'
+      info: 'Kumk\'u is the eigthteenth month of the Haab calendar, and is represented by maize.<br>This period may be associated with harvesting, sharing and food.'
     },
   'Wayeb': {
       definition: 'Unlucky Days',
-      info: 'Wayeb is the final period of the Haab calendar, consisting of five unpredictable and unlucky days. This time may be associated with warding off misfortune and evil spirits.'
+      info: 'Wayeb is the final period of the Haab calendar, consisting of five unpredictable and unlucky days.<br>This time may be associated with warding off misfortune and evil spirits.'
     }
 };
 
 const tzolkinData = {
   'Imix\'': {
       definition: 'Sea Monster',
-      info: 'Imix\' symbolises the sea, rivers, and lakes, and is associated with the nawal of the sea. It\'s a day to ask for rain and the calming of mental and spiritual struggles. Those born on this day are intuitive, creative, and good workers.'
+      info: 'Imix\' symbolises the sea, rivers, and lakes, and is associated with the nawal of the sea.<br>It\'s a day to ask for rain and the calming of mental and spiritual struggles.<br>Those born on this day are intuitive, creative, and good workers.'
   },
   'Ik\'': {
       definition: 'Wind',
-      info: 'Ik\' symbolises wind, spirit and air, and is sometimes known as the "breath of life." It\'s a day to ask for the end of suffering and illnesses. Those born on this day are emotional, sociable and considerate.'
+      info: 'Ik\' symbolises wind, spirit and air, and is sometimes known as the "breath of life".<br>It\'s a day to ask for the end of suffering and illnesses.<br>Those born on this day are emotional, sociable and considerate.'
   },
   'Ak\'b\'al': {
       definition: 'Night',
-      info: 'Ak\'b\'al symbolises darkness and the light of dawn, and is sometimes associated with the underworld. It\'s a day to ask for light and healing, and to feel heartfelt emotions. Those born on this day are brave, humble and precise.'
+      info: 'Ak\'b\'al symbolises darkness and the light of dawn, and is sometimes associated with the underworld.<br>It\'s a day to ask for light and healing, and to feel heartfelt emotions.<br>Those born on this day are brave, humble and precise.'
   },
   'K\'an': {
       definition: 'Yellow Corn',
-      info: 'K\'an symbolises fire and an abundance of corn crops, and is often associated with fertility and the cycles of life. It\'s a day to ask for a child and opportunities. Those born on this day are practical, driven and have lots of potential.'
+      info: 'K\'an symbolises fire and an abundance of corn crops, and is often associated with fertility and the cycles of life.<br>It\'s a day to ask for a child and opportunities.<br>Those born on this day are practical, driven and have lots of potential.'
   },
   'Chikchan': {
       definition: 'Serpent',
-      info: 'Chikchan symbolises the serpent "Shaper of The Universe", and is associated with vitality, truth and a spiritual awakening. It\'s a day to ask for good health, work, and dissipation of anger. Those born on this day are strong, skillful and wise.'
+      info: 'Chikchan symbolises the serpent "Shaper of The Universe", and is associated with vitality, truth and a spiritual awakening.<br>It\'s a day to ask for good health, work, and dissipation of anger.<br>Those born on this day are strong, skillful and wise.'
     },
   'Kimi': {
       definition: 'Death',
-      info: 'Kimi symbolises death, transformation and the cycle of life, and is associated with the nawal of the sun. It\'s a day to ask to be free from bad choices and accidents and transition to a new phase. Those born on this day are strong, resiliant and adaptable.'
+      info: 'Kimi symbolises death, transformation and the cycle of life, and is associated with the nawal of the sun.<br>It\'s a day to ask to be free from bad choices and accidents and transition to a new phase.<br>Those born on this day are strong, resiliant and adaptable.'
   },
   'Manik\'': {
       definition: 'Deer',
-      info: 'Manik\' symbolises grace and harmony, qualities of a deer, and is associated with nature and destiny. It\'s a day to ask for peace and balance. Those born on this day are healthy, strong, and defend others.'
+      info: 'Manik\' symbolises grace and harmony, qualities of a deer, and is associated with nature and destiny.<br>It\'s a day to ask for peace and balance.<br>Those born on this day are healthy, strong, and defend others.'
   },
   'Lamat': {
       definition: 'Venus',
-      info: 'Lamat symbolises the planet Venus and the harmony of the cosmos, and is associated with fertility and abundance. It\'s a day to ask for good fortune. Those born on this day are beautiful, elegant and seek reassurance.'
+      info: 'Lamat symbolises the planet Venus and the harmony of the cosmos, and is associated with fertility and abundance.<br>It\'s a day to ask for good fortune.<br>Those born on this day are beautiful, elegant and seek reassurance.'
     },
   'Muluk': {
       definition: 'Water',
-      info: 'Muluk symbolises the sacredness of water, and is associated with emotions and purification. It\'s a day to ask for strength, reflection and opportunity. Those born on this day are conscientious, independent, and have strong morals.'
+      info: 'Muluk symbolises the sacredness of water, and is associated with emotions and purification.<br>It\'s a day to ask for strength, reflection and opportunity.<br>Those born on this day are conscientious, independent, and have strong morals.'
     },
   'Ok': {
       definition: 'Dog',
-      info: 'Ok symbolises loyalty, guidance and companionship, qualities of a dog, and is associated with protection. It\'s a day to ask for prevention from poverty, misfortune and criticism. Those born on this day are intelligent, loyal and love unconditionally.'
+      info: 'Ok symbolises loyalty, guidance and companionship, qualities of a dog, and is associated with protection.<br>It\'s a day to ask for prevention from poverty, misfortune and criticism.<br>Those born on this day are intelligent, loyal and love unconditionally.'
     },
   'Chuwen': {
       definition: 'Monkey',
-      info: 'Chuwen symbolises development, innovation and creativity, and is associated with a monkey. It\'s a day to ask for clarity about life\'s experiences and for innovation. Those born on this day are curious, intelligent, and creative.'
+      info: 'Chuwen symbolises development, innovation and creativity, and is associated with a monkey.<br>It\'s a day to ask for clarity about life\'s experiences and for innovation.<br>Those born on this day are curious, intelligent, and creative.'
     },
   'Eb\'': {
       definition: 'Road',
-      info: 'Eb\' symbolises the path of life and the journey of the soul, and is associated with destiny and choice. It\'s a day to ask for marriage and for the well-being of loved ones. Those born on this day are progressive, understanding and are good travellers.'
+      info: 'Eb\' symbolises the path of life and the journey of the soul, and is associated with destiny and choice.<br>It\'s a day to ask for marriage and for the well-being of loved ones.<br>Those born on this day are progressive, understanding and are good travellers.'
     },
   'B\'en': {
       definition: 'Reed',
-      info: 'B\'en symbolises strength and flexibility, and is associated with the spiritual pillar that connects Earth and the heavens. It\'s a day of triumph and community leadership. Those born on this day are lucky, calm and intelligent.'
+      info: 'B\'en symbolises strength and flexibility, and is associated with the spiritual pillar that connects Earth and the heavens.<br>It\'s a day of triumph and community leadership.<br>Those born on this day are lucky, calm and intelligent.'
     },
   'Ix': {
       definition: 'Jaguar',
-      info: 'Ix symbolises power, mystery and the feminine force, and is associated with one of the strongest Mayan symbols, the jaguar. It\'s a day to ask for bravery and the ability to navigate unseen realms. Those born on this day are strong, courageous and can be fiesty.'
+      info: 'Ix symbolises power, mystery and the feminine force, and is associated with one of the strongest Mayan symbols, the jaguar.<br>It\'s a day to ask for bravery and the ability to navigate unseen realms.<br>Those born on this day are strong, courageous and can be fiesty.'
     },
   'Men': {
       definition: 'Eagle',
-      info: 'Men symbolises freedom and the ability to see beyond the ordinary and achieve great heights, and is often associated with the "Creator of the Universe". It\'s a day to ask for money and good business. Those born on this day are romantic, observant and ambitious.'
+      info: 'Men symbolises freedom and the ability to see beyond the ordinary and achieve great heights, and is often associated with the "Creator of the Universe".<br>It\'s a day to ask for money and good business.<br>Those born on this day are romantic, observant and ambitious.'
     },
   'K\'ib\'': {
       definition: 'Owl',
-      info: 'K\'ib\' symbolises knowledge, introspection and understanding, and is associated with the wise old owl. It\'s a day to give thanks to the health of loved ones. Those born on this day are brave, strong-willed and knowledgeable.'
+      info: 'K\'ib\' symbolises knowledge, introspection and understanding, and is associated with the wise old owl.<br>It\'s a day to give thanks to the health of loved ones.<br>Those born on this day are brave, strong-willed and knowledgeable.'
     },
   'Kab\'an': {
       definition: 'Earth',
-      info: 'Kab\'an symbolises wisdom, creativity and responsibility, and is associated with the rhythms of the Earth hand reflection. It\'s a day to bring together good ideas and ask for the banishment of negative energy. Those born on this day are methodical, wise and advocate for the planet.'
+      info: 'Kab\'an symbolises wisdom, creativity and responsibility, and is associated with the rhythms of the Earth hand reflection.<br>It\'s a day to bring together good ideas and ask for the banishment of negative energy.<br>Those born on this day are methodical, wise and advocate for the planet.'
     },
   'Etz\'nab\'': {
       definition: 'Flint',
-      info: 'Etz\'nab\' symbolises destiny, clarity and reflection, and is often associated with the sharp edge of truth. It\'s a day to ask for protection from others and one\'s self. Those born on this day are brave, self-aware and honest.'
+      info: 'Etz\'nab\' symbolises destiny, clarity and reflection, and is often associated with the sharp edge of truth.<br>It\'s a day to ask for protection from others and one\'s self.<br>Those born on this day are brave, self-aware and honest.'
     },
   'Kawak': {
       definition: 'Storm',
-      info: 'Ajaw symbolises the forces of nature and the cleansing power of rain, and is associated with renewal. It\'s a day to ask for successful endeavours and to heal mental struggles. Those born on this day are adaptable, have good judgement and look to the future.'
+      info: 'Ajaw symbolises the forces of nature and the cleansing power of rain, and is associated with renewal.<br>It\'s a day to ask for successful endeavours and to heal mental struggles.<br>Those born on this day are adaptable, have good judgement and look to the future.'
     },
   'Ajaw': {
       definition: 'Sun',
-      info: 'Ajaw symbolises enlightenment, life, and unity, and is associated with the sun. It\'s a day to ask for ideas to become a reality. Those born on this day are talented, affectionate and fulfilled.'
+      info: 'Ajaw symbolises enlightenment, life, and unity, and is associated with the sun.<br>It\'s a day to ask for ideas to become a reality.<br>Those born on this day are talented, affectionate and fulfilled.'
     }
 };
 

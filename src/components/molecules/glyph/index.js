@@ -13,7 +13,7 @@ const Glyph = ({ type, glyph }) => {
         alt={`Image of ${glyph} Glyph`}
       />
       <p className={styles.glyphDefinition}>{type === 'haab' ? haabData[glyph].definition : tzolkinData[glyph].definition}</p>
-      <p className={styles.glyphInfo}>{type === 'haab' ? haabData[glyph].info : tzolkinData[glyph].info}</p>
+      <p className={styles.glyphInfo} dangerouslySetInnerHTML={{ __html: type === 'haab' ? haabData[glyph].info : tzolkinData[glyph].info }}></p>
     </div>
   )
 };

@@ -31,7 +31,7 @@ const DateInput = ({ setTzolkinDate, setHaabDate, setGregorianDate }) => {
 
   return (
     <div className={styles.dateInput}>
-      <label htmlFor="date" className={styles.label}>Select a date:</label>
+      <label htmlFor="date" className={styles.label}>Choose a significant date:</label>
       <div className={styles.buttons}>
         <input
           type="date"
