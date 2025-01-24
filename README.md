@@ -1,68 +1,38 @@
-# Using this template
+# Mayan Calender Codex
 
-## Creating repo
+Welcome to Guatemala's project: Mayan Calender Codex.
 
-- Clone this repo from github or local files
-- Create a new repo on github
-- Point cloned repo to new repo using: `git remote set-url origin [REPO URL]`
-- Push up changes: `git push -u origin main`
-- If the error 'fatal: the remote end hung up unexpectedly' arises, use `git config http.postBuffer 524288000` and try push again
-- Delete test files if not testing
-- Delete this part of readme
-- npm i
+For this app, I really wanted to expand my knowldge on the Mayan Calendar systems, and deliver a fun way to learn and interact with the interesting glyphs and their meanings.
 
-## Creating a new component
+Even though several 'Mayan Calendar Converters' do already exist, mine adds a new layer in exposing the meaning behind the user's significant date's glyphs and allowing them to handily share the result. I also added a whole learning zone, detailing information about each calendar system and how they fit together to give the user more context.
 
-```
-import PropTypes from 'prop-types';
-import Image from 'next/image';
-import styles from './component.module.css';
+Give it a go by entering a date that is important to you; whether it's a birthday, an anniversary, or even a future date that holds uncertainty. Let's see what the Mayans have to say about it!
 
-const Component = ({ aProp }) => {
-  return (
-    <div className={styles.image}>
-      <Image
-        src={aProp.src}
-        alt={aProp.alt}
-        layout="fill"
-        objectFit="cover"
-        unoptimized
-      />
-    </div>
-  )
-};
+Hosted independently [here](https://guatemala.cat-miller.com/).
 
-Component.propTypes = {
-  aProp: PropTypes.string.isRequired,
-};
+A full write up, with further information about the project, can be found on [What's My Country Code - Guatemala](https://whatsmycountrycode.cat-miller.com/guatemala).
 
-export { Component };
-```
+## References
 
-### Hosting
+For this project I did quite a lot of research and reading to further my understanding of the Mayans and their calendar systems, after hearing stories and speaking to locals on my travels.
 
-Follow guide at https://callumeddisford.medium.com/deploying-a-next-js-14-app-to-google-cloud-run-c193895f5bd4
+However, I am not a professional researcher, nor was this the main objective of this project. Therefore, I do apologise if there are any inaccuracies or mistakes. I did lift and shift information from some trusted sources, which also make for great reading if you want to learn more. These were:
 
-# COUNTRY PROJECT
+#### Foundation for the Advancement of Mesoamerican Studies, Inc. (FAMSI)
 
-// TO DO - update readme
+- http://www.famsi.org/research/pitts/MayaGlyphsBook2Sect1.pdf
+- http://www.famsi.org/research/pitts/MayaGlyphsBook2Sect2.pdf
+- http://research.famsi.org/date_mayaLC.php
 
-Welcome to [COUNTRY NAMES]'s project: [PROJECT NAME].
+#### National Museum of the American Indian Smithsonian Latino Center
 
-[SPIEL]
+- https://maya.nmai.si.edu/calendar/maya-calendar-converter
+- https://maya.nmai.si.edu/sites/default/files/resources/The%20Meaning%20of%20the%20Days%20in%20the%20Maya%20Sacred%20Calendar.pdf
 
-## Getting Started
+#### Coyote Wind Studios
 
-First, install all the dependencies using
+- https://www.coyote-wind.com/studios/MayaDate/about.html
 
-```bash
-npm i
-```
+#### Mayan Calendar
 
-Then run the development server:
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- https://www.mayan-calendar.com/ancient_haab.html
