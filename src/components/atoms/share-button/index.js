@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import html2canvas from 'html2canvas';
 import styles from './share-button.module.css';
 
-
 const ShareButton = ({ resultRef }) => {
   const handleShare = async () => {
     const canvas = await html2canvas(resultRef.current, { scale: 1 });

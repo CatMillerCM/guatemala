@@ -8,11 +8,6 @@
   padding: 2rem 1.5rem;
 }
 
-.shareResult img {
-  width: 7rem;
-  height: 7rem
-}
-
 .intro {
   color: var(--color-mayan-red);
   margin-bottom: 0.5rem;
