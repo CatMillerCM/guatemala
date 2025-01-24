@@ -29,7 +29,7 @@ const haabData = {
     },
   'Mol': {
       definition: 'Water',
-      info: 'Mol is the eigth month of the Haab calendar, and is represented by water.<br>This period may be associated with rain and hardwork.'
+      info: 'Mol is the eighth month of the Haab calendar, and is represented by water.<br>This period may be associated with rain and hardwork.'
     },
   'Ch\'en': {
       definition: 'Black Storm',
@@ -69,7 +69,7 @@ const haabData = {
     },
   'Kumk\'u': {
       definition: 'Granary',
-      info: 'Kumk\'u is the eigthteenth month of the Haab calendar, and is represented by maize.<br>This period may be associated with harvesting, sharing and food.'
+      info: 'Kumk\'u is the eighthteenth month of the Haab calendar, and is represented by maize.<br>This period may be associated with harvesting, sharing and food.'
     },
   'Wayeb': {
       definition: 'Unlucky Days',
