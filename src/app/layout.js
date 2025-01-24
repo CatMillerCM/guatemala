@@ -8,8 +8,8 @@ const nunitoSans = Nunito_Sans({
 });
 
 export const metadata = {
-  title: "",
-  description: "",
+  title: "Mayan Calendar Codex",
+  description: "Convert a significant date to discover the Mayan meanings behind it!",
   icons: {
     icon: '/favicon.ico'
   },
