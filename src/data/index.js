@@ -1,163 +1,163 @@
 const haabData = {
   'Pop': {
       definition: 'Mat',
-      info: 'Pop is the first month of the Haab\' calendar, symbolizing community and marriage. It marks the beginning of the year, a time for gift-giving and festivities. This period is associated with leadership and the establishment of new beginnings.'
-  },
+      info: 'Pop is the first month of the Haab calendar, symbolising community and marriage. This period may be associated with new beginnings and gift-giving.'
+    },
   'Wo': {
-      definition: 'Black Conjunction',
-      info: 'Wo is associated with the frog and is a time when physicians and shamans make offerings to Itzamna, the god of magic and patron of priests. Predictions for the year are made, and priests are assigned their festival obligations during this month.'
+      definition: 'Frog',
+      info: 'Wo is the second month of the Haab calendar, and is represented by a frog. This period may be associated with predictions for the future.'
   },
   'Sip': {
-      definition: 'Red Conjunction',
-      info: 'Sip is dedicated to Ek Zip, the god of hunting. Hunters and fishermen bless their tools and perform bloodletting ceremonies during this time. It is a period for seeking success in hunting and fishing activities.'
-  },
+      definition: 'Stag',
+      info: 'Sip is the third month of the Haab calendar, and is represented by a stag. This period may be associated with hunting success.'
+    },
   'Sotz\'': {
       definition: 'Bat',
-      info: 'Sotz\' is associated with bats and bees. Beekeepers prepare for upcoming activities by fasting during this month. It may also be linked to the beginning of the darker months of the year.'
-  },
+      info: 'Sotz\' is the fourth month of the Haab calendar, and is represented by a bat. This period may be associated with upcoming darkness.'
+    },
   'Sek': {
       definition: 'No known translation',
-      info: 'Sek is the time for the beekeepers\' festival. Offerings are made to the four Chaaks (rain gods), and honey is shared within the community. It is a period for honoring deities associated with rain and fertility.'
-  },
+      info: 'Sek is the fifth month of the Haab calendar, and has no known translation. This period may be associated with rejecting negativity.'
+    },
   'Xul': {
       definition: 'Dog',
-      info: 'Xul is dedicated to Chicc-kaban and Kukulcan, the Feathered Serpent. Marked by processions to community temples and accompanied by troupes of comedians, it is a time for communal gatherings and celebrations.'
-  },
+      info: 'Xul is the sixth month of the Haab calendar, and is represented by a dog. This period may be associated with communal gatherings and celebrations.'
+    },
   'Yaxk\'in': {
       definition: 'New Sun',
-      info: 'Yaxk\'in signifies the "new sun" and is associated with renewal and the sun god. It is a period for seeking health and prosperity, marking a time of transition and new beginnings.'
-  },
+      info: 'Yaxk\' is the seventh month of the Haab calendar, and signifies the sun god. This period may be associated with renewal and new skills.'
+    },
   'Mol': {
       definition: 'Water',
-      info: 'Mol is associated with water and jade. It is a time for ceremonies related to rain and water, essential for agricultural fertility. Rituals during this month aim to ensure sufficient rainfall for crops.'
-  },
+      info: 'Mol is the eigth month of the Haab calendar, and is represented by water. This period may be associated with rain and hardwork.'
+    },
   'Ch\'en': {
       definition: 'Black Storm',
-      info: 'Ch\'en is linked to the "black storm" and is a period for nocturnal ceremonies. It is associated with the moon and darkness, emphasizing introspection and reflection.'
-  },
+      info: 'Ch\'en is the ninth month of the Haab calendar, and signifies a black storm. This period may be associated with the moon and reflection.'
+    },
   'Yax': {
       definition: 'Green Storm',
-      info: 'Yax represents the "green storm" and is associated with Venus. It is a time for rituals seeking balance and harmony, focusing on growth and renewal.'
-  },
+      info: 'Yax is the tenth month of the Haab calendar, and signifies a green storm. This period may be associated with the Venus and growth.'
+    },
   'Sak': {
       definition: 'White Storm',
-      info: 'Sak\' signifies the "white storm" and is linked to purification. Ceremonies during this month aim to cleanse and renew both the community and the individual.'
-  },
+      info: 'Sak\' is the eleventh month of the Haab calendar, and signifies a white storm. This period may be associated with the cleansing and forgiveness.'
+    },
   'Keh': {
       definition: 'Red Storm',
-      info: 'Keh is associated with the "red storm" and the deer. It is a time for rituals seeking balance in nature and society, emphasizing harmony and peace.'
-  },
+      info: 'Keh is the twelfth month of the Haab calendar, and signifies a red storm. This period may be associated with deer and nature.'
+    },
   'Mak': {
-      definition: 'Enclosed',
-      info: 'Mak means "to enclose" or "cover." It is a period of introspection and secrecy, often associated with the preparation for the upcoming Wayeb period.'
-  },
+      definition: 'A Cover',
+      info: 'Mak is the thirteenth month of the Haab calendar, and means "to enclose" or "to cover". This period may be associated with introspection.'
+    },
   'K\'ank\'in': {
       definition: 'Yellow Sun',
-      info: 'K\'ank\'in translates to "yellow sun" and is associated with the earth and sun. It is a time for honoring deities related to agriculture and fertility.'
-  },
+      info: 'K\'ank\'in is the fourteenth month of the Haab calendar, and signifies a yellow sun. This period may be associated with our connection to the earth and the sun.'
+    },
   'Muwan': {
       definition: 'Owl',
-      info: 'Muwan is linked to the owl and is associated with fire and rain. Rituals during this month focus on weather patterns and seeking protection from natural disasters.'
-  },
+      info: 'Muwan is the fifteenth month of the Haab calendar, and is represented by a owl. This period may be associated with protection.'
+    },
   'Pax': {
       definition: 'Planting Time',
-      info: 'Pax signifies "planting time" and is associated with warfare and planting. It is a period for preparing the fields and seeking strength and protection for the community.'
-  },
+      info: 'Pax is the sixteenth month of the Haab calendar, and was a time to honour warriors. This period may be associated with future victory.'
+    },
   'K\'ayab': {
       definition: 'Turtle',
-      info: 'K\'ayab is linked to the turtle and is associated with the moon goddess. It is a time for rituals honoring femininity, fertility, and the lunar cycle.'
-  },
+      info: 'K\'ayab is the seventeenth month of the Haab calendar, and is represented by a turtle. This period may be associated with the moon, femininity and fertility.'
+    },
   'Kumk\'u': {
       definition: 'Granary',
-      info: 'Kumk\'u translates to "granary" and is associated with maize and abundance. It is a period for giving thanks for the harvest and ensuring the storage of food supplies.'
-  },
+      info: 'Kumk\'u is the eigthteenth month of the Haab calendar, and is represented by maize. This period may be associated with harvesting, sharing and food.'
+    },
   'Wayeb': {
       definition: 'Unlucky Days',
-      info: 'Wayeb consists of five nameless days considered unpredictable and unlucky. During this time, the Maya believed that the boundaries between the mortal realm and the underworld dissolved, necessitating rituals to ward off evil spirits and avoid misfortune.'
-  }
+      info: 'Wayeb is the final period of the Haab calendar, consisting of five unpredictable and unlucky days. This time may be associated with warding off misfortune and evil spirits.'
+    }
 };
 
 const tzolkinData = {
   'Imix\'': {
-      definition: 'Crocodile',
-      info: 'Imix\' symbolises the sea, rivers, and lakes and is associated with the nawal of the sea. It\'s a day to ask for rain and the calming of mental and spiritual struggles. Those born on this day are intuitive, creative, and good workers.'
+      definition: 'Sea Monster',
+      info: 'Imix\' symbolises the sea, rivers, and lakes, and is associated with the nawal of the sea. It\'s a day to ask for rain and the calming of mental and spiritual struggles. Those born on this day are intuitive, creative, and good workers.'
   },
   'Ik\'': {
       definition: 'Wind',
-      info: 'Ik\' represents wind, breath, and life, suggesting the "breath of life." It is associated with communication and inspiration. This glyph signifies the vital energy that animates all living beings.'
+      info: 'Ik\' symbolises wind, spirit and air, and is sometimes known as the "breath of life." It\'s a day to ask for the end of suffering and illnesses. Those born on this day are emotional, sociable and considerate.'
   },
   'Ak\'b\'al': {
       definition: 'Night',
-      info: 'Ak\'b\'al symbolises darkness, the underworld, and the realm of the nocturnal jaguar-sun. It is associated with early dawn and morning. This glyph represents the mysteries of the unknown and the subconscious mind.'
+      info: 'Ak\'b\'al symbolises darkness and the light of dawn, and is sometimes associated with the underworld. It\'s a day to ask for light and healing, and to feel heartfelt emotions. Those born on this day are brave, humble and precise.'
   },
   'K\'an': {
       definition: 'Yellow Corn',
-      info: 'K\'an represents maize and abundance. It is associated with fertility and the cycles of life. This glyph signifies potential, growth, and the development of opportunities.'
+      info: 'K\'an symbolises fire and an abundance of corn crops, and is often associated with fertility and the cycles of life. It\'s a day to ask for a child and opportunities. Those born on this day are practical, driven and have lots of potential.'
   },
   'Chikchan': {
       definition: 'Serpent',
-      info: 'Chikchan symbolises the life force and vitality. It is associated with spiritual awakening and the energy of transformation. This glyph represents primal power and the shedding of old skin for renewal.'
-  },
+      info: 'Chikchan symbolises the serpent "Shaper of The Universe", and is associated with vitality, truth and a spiritual awakening. It\'s a day to ask for good health, work, and dissipation of anger. Those born on this day are strong, skillful and wise.'
+    },
   'Kimi': {
       definition: 'Death',
-      info: 'Kimi represents death and the Lords of the Underworld. It is associated with the concept of transformation and the cycle of life and death. This glyph signifies the end of one phase and the beginning of another.'
+      info: 'Kimi symbolises death, transformation and the cycle of life, and is associated with the nawal of the sun. It\'s a day to ask to be free from bad choices and accidents and transition to a new phase. Those born on this day are strong, resiliant and adaptable.'
   },
   'Manik\'': {
       definition: 'Deer',
-      info: 'Manik\' embodies the qualities of the deer, symbolizing grace and harmony. It is associated with the Lord of the Hunt. This glyph represents balance, peace, and the connection to nature.'
+      info: 'Manik\' symbolises grace and harmony, qualities of a deer, and is associated with nature and destiny. It\'s a day to ask for peace and balance. Those born on this day are healthy, strong, and defend others.'
   },
   'Lamat': {
       definition: 'Venus',
-      info: 'Lamat symbolises the planet Venus and is associated with fertility and abundance. It represents the cycles of the stars and the harmony of the cosmos. This glyph signifies beauty, elegance, and the creative forces of the universe.'
-  },
+      info: 'Lamat symbolises the planet Venus and the harmony of the cosmos, and is associated with fertility and abundance. It\'s a day to ask for good fortune. Those born on this day are beautiful, elegant and seek reassurance.'
+    },
   'Muluk': {
       definition: 'Water',
-      info: 'Muluk represents water and is associated with emotions and purification. It signifies the sacredness of water as a life-giving element. This glyph encourages adaptability and reflection.'
-  },
+      info: 'Muluk symbolises the sacredness of water, and is associated with emotions and purification. It\'s a day to ask for strength, reflection and opportunity. Those born on this day are conscientious, independent, and have strong morals.'
+    },
   'Ok': {
       definition: 'Dog',
-      info: 'Ok symbolises loyalty, guidance, and companionship. It represents the journey of the soul and protection on spiritual paths. This glyph embodies faithfulness and unconditional love.'
-  },
+      info: 'Ok symbolises loyalty, guidance and companionship, qualities of a dog, and is associated with protection. It\'s a day to ask for prevention from poverty, misfortune and criticism. Those born on this day are intelligent, loyal and love unconditionally.'
+    },
   'Chuwen': {
       definition: 'Monkey',
-      info: 'Chuwen is the symbol of creativity, playfulness, and artistry. It represents the joy of creation and the ability to weave life\'s experiences into meaningful patterns. This glyph embodies curiosity and innovation.'
-  },
+      info: 'Chuwen symbolises development, innovation and creativity, and is associated with a monkey. It\'s a day to ask for clarity about life\'s experiences and for innovation. Those born on this day are curious, intelligent, and creative.'
+    },
   'Eb\'': {
       definition: 'Road',
-      info: 'Eb\' represents the path of life and the journey of the soul. It symbolises destiny, choices, and the guidance provided by higher forces. This glyph encourages progress and understanding.'
-  },
+      info: 'Eb\' symbolises the path of life and the journey of the soul, and is associated with destiny and choice. It\'s a day to ask for marriage and for the well-being of loved ones. Those born on this day are progressive, understanding and are good travellers.'
+    },
   'B\'en': {
       definition: 'Reed',
-      info: 'B\'en embodies strength, flexibility, and connection to higher ideals. It represents the spiritual pillar that connects the Earth and the heavens. This glyph encourages spiritual growth and community leadership.'
-  },
+      info: 'B\'en symbolises strength and flexibility, and is associated with the spiritual pillar that connects Earth and the heavens. It\'s a day of triumph and community leadership. Those born on this day are lucky, calm and intelligent.'
+    },
   'Ix': {
       definition: 'Jaguar',
-      info: 'Ix symbolises power, mystery, and the feminine force. It represents the connection to the earth and ancient wisdom. This glyph embodies courage and the ability to navigate the unseen realms.'
-  },
+      info: 'Ix symbolises power, mystery and the feminine force, and is associated with one of the strongest Mayan symbols, the jaguar. It\'s a day to ask for bravery and the ability to navigate unseen realms. Those born on this day are strong, courageous and can be fiesty.'
+    },
   'Men': {
       definition: 'Eagle',
-      info: 'Men represents vision, higher perspective, and freedom. It symbolises the ability to see beyond the ordinary and achieve great heights. This glyph encourages ambition and spiritual insight.'
-  },
+      info: 'Men symbolises freedom and the ability to see beyond the ordinary and achieve great heights, and is often associated with the "Creator of the Universe". It\'s a day to ask for money and good business. Those born on this day are romantic, observant and ambitious.'
+    },
   'K\'ib\'': {
-      definition: 'Owl/Vulture',
-      info: 'K\'ib\' is associated with wisdom, forgiveness, and ancestral knowledge. It represents the transformative power of understanding and letting go. This glyph embodies introspection and enlightenment.'
-  },
+      definition: 'Owl',
+      info: 'K\'ib\' symbolises knowledge, introspection and understanding, and is associated with the wise old owl. It\'s a day to give thanks to the health of loved ones. Those born on this day are brave, strong-willed and knowledgeable.'
+    },
   'Kab\'an': {
       definition: 'Earth',
-      info: 'Kab\'an symbolises harmony, movement, and synchronization with nature. It represents the rhythms of the Earth and the importance of living in balance. This glyph encourages awareness and responsibility for the planet.'
-  },
+      info: 'Kab\'an symbolises wisdom, creativity and responsibility, and is associated with the rhythms of the Earth hand reflection. It\'s a day to bring together good ideas and ask for the banishment of negative energy. Those born on this day are methodical, wise and advocate for the planet.'
+    },
   'Etz\'nab\'': {
       definition: 'Flint',
-      info: 'Etz\'nab\' symbolises clarity, reflection, and the power of discernment. It represents the sharp edge of truth and the ability to cut through illusion. This glyph encourages honesty and self-awareness.'
-  },
+      info: 'Etz\'nab\' symbolises destiny, clarity and reflection, and is often associated with the sharp edge of truth. It\'s a day to ask for protection from others and one\'s self. Those born on this day are brave, self-aware and honest.'
+    },
   'Kawak': {
       definition: 'Storm',
-      info: 'Kawak represents renewal, purification, and the energy of transformation. It symbolises the forces of nature and the cleansing power of rain. This glyph encourages embracing change and inner growth.'
-  },
+      info: 'Ajaw symbolises the forces of nature and the cleansing power of rain, and is associated with renewal. It\'s a day to ask for successful endeavours and to heal mental struggles. Those born on this day are adaptable, have good judgement and look to the future.'
+    },
   'Ajaw': {
       definition: 'Sun',
-      info: 'Ajaw symbolises enlightenment, life, and unity. It represents the light that guides and nourishes all living things. This glyph embodies fulfillment, wholeness, and spiritual illumination.'
-  }
+      info: 'Ajaw symbolises enlightenment, life, and unity, and is associated with the sun. It\'s a day to ask for ideas to become a reality. Those born on this day are talented, affectionate and fulfilled.'
+    }
 };
 
 const calendarInfo = {
