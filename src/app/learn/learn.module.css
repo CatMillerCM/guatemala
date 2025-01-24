@@ -33,7 +33,11 @@
 }
 
 .disclaimer {
-  font-size: 0.5rem;
+  font-size: 0.65rem;
   color: var(--color-mayan-brown);
-  line-height: 0.6rem;
+  line-height: 0.85rem;
+}
+
+.link {
+  color: var(--color-mayan-red);
 }
