@@ -7,7 +7,7 @@ import styles from './share-button.module.css';
 
 const ShareButton = ({ resultRef }) => {
   const handleShare = async () => {
-    const canvas = await html2canvas(resultRef.current);
+    const canvas = await html2canvas(resultRef.current, { scale: 1 });
 
     canvas.toBlob(async (blob) => {
       if (blob && navigator.canShare) {
