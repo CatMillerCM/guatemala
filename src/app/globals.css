@@ -39,7 +39,7 @@ h2 {
 p {
   font-size: var(--font-size-small);
   margin: 0;
-  line-height: 1.45rem;
+  line-height: 1.5rem;
 }
 
 button {
@@ -76,6 +76,6 @@ button {
   }
 
   p {
-    line-height: 1rem;
+    line-height: 1.2rem;
   }
 }
