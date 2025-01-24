@@ -4,6 +4,11 @@
   align-items: center;
 }
 
+.glyph img {
+  width: 7rem;
+  height: 7rem;
+}
+
 .glyphInfo {
   color: var(--color-mayan-brown);
 }
