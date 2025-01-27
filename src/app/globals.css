@@ -17,7 +17,7 @@
   --font-size-extra-large: 2.75rem;
   --font-size-large: 2rem;
   --font-size-medium: 1.75rem;
-  --font-size-small: 1.35rem;
+  --font-size-small: 1.3rem;
 }
 
 body {
@@ -72,10 +72,10 @@ button {
     --font-size-extra-large: 2rem;
     --font-size-large: 1.75rem;
     --font-size-medium: 1.5rem;
-    --font-size-small: 1.2rem;
+    --font-size-small: 1.15rem;
   }
 
   p {
-    line-height: 1.15rem;
+    line-height: 1.2rem;
   }
 }
