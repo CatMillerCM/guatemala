@@ -36,6 +36,7 @@ const DateInput = ({ setTzolkinDate, setHaabDate, setGregorianDate }) => {
         <input
           type="date"
           id="date"
+          placeholder="dd/mm/yyyy"
           className={styles.input}
           onChange={(e) => setDisabled(!Boolean(e.target.value))}
         />
