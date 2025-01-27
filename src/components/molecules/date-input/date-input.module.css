@@ -17,7 +17,7 @@
 }
 
 .input {
-  height: 2.44rem;
+  max-height: 2.44rem;
   font-size: var(--font-size-small);
   border-radius: 4px;
   text-align: center;
@@ -28,7 +28,6 @@
   font-weight: bold;
   width: max-content;
   min-width: 8rem;
-  max-height: 2rem;
   align-self: center;
 }
 
