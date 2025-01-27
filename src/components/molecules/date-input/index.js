@@ -21,12 +21,9 @@ const DateInput = ({ setTzolkinDate, setHaabDate, setGregorianDate }) => {
 
   const handleSubmit = () => {
     const dateInput = document.getElementById('date').value;
-    const [year, month, day] = dateInput.split("-").map(Number);
 
-    const gregorianDate = new Date(year, month - 1, day);
-
-    setGregorianDate(gregorianDate);
-    getMayanDates(gregorianDate);
+    setGregorianDate(dateInput);
+    getMayanDates(dateInput);
   };
 
   return (

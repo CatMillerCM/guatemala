@@ -25,7 +25,7 @@ const DateResult = ({ haabDate, tzolkinDate, setHaabDate, setTzolkinDate, gregor
             <h2 className={styles.date}>{haabDate.toUpperCase()}</h2>
             <Glyph type='haab' glyph={haabDate.split(' ')[1]} />
           </div>}
-          {haabDate && <div className={styles.tzolkin}>
+          {tzolkinDate && <div className={styles.tzolkin}>
             <h2 className={styles.dateType}>The Tzolk'in Date is:</h2>
             <h2 className={styles.date}>{tzolkinDate.toUpperCase()}</h2>
             <Glyph type='tzolkin' glyph={tzolkinDate.split(' ')[1]} />

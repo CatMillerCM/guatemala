@@ -1,10 +1,12 @@
+const { DateTime } = require('luxon');
+
 const getDaysElapsed = (gregorianDate) => {
-  const mayanCreationDate = new Date(-3113, 7, 11);
+  const gregorianDateLuxon = DateTime.fromISO(gregorianDate, { zone: 'America/Chicago' });
+  const mayanCreationDateLuxon = DateTime.fromObject({ year: -3113, month: 8, day: 11 }, { zone: 'UTC' });
+  
+  const diffInDays = gregorianDateLuxon.diff(mayanCreationDateLuxon, 'days').days;
 
-  const millisecondsElapsed = gregorianDate - mayanCreationDate;
-  const daysElapsed = millisecondsElapsed/(1000 * 60 * 60 * 24);
-
-  return Math.floor(daysElapsed);
+  return Math.floor(diffInDays);
 };
 
 export { getDaysElapsed };

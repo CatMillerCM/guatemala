@@ -12,7 +12,7 @@ const getHaabDate = (daysElapsed) => {
 
     const haabDayNumber = ((daysElapsed + numberOfDaysPassedInYear) % 365) % HAAB_DAYS_PER_MONTH;
 
-    const haabMonthIndex = Math.floor((((daysElapsed + numberOfDaysPassedInYear) % 365) + 1) / HAAB_DAYS_PER_MONTH);
+    const haabMonthIndex = Math.floor(((daysElapsed + numberOfDaysPassedInYear) % 365) / HAAB_DAYS_PER_MONTH);
     const haabMonth = haabMonths[haabMonthIndex];
 
     return `${haabDayNumber} ${haabMonth}`;
