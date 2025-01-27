@@ -57,7 +57,7 @@ const haabData = {
     },
   'Muwan': {
       definition: 'Owl',
-      info: 'Muwan is the fifteenth month of the Haab calendar, and is represented by a owl.<br>This period may be associated with protection.'
+      info: 'Muwan is the fifteenth month of the Haab calendar, and is represented by an owl.<br>This period may be associated with protection.'
     },
   'Pax': {
       definition: 'Planting Time',
