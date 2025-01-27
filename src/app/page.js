@@ -31,7 +31,7 @@ const Page = () => {
       <main className={styles.mainInput}>
         <div className={styles.inputContainer}>
           <h1 className={styles.title}>MAYAN CALENDAR CODEX</h1>
-          <p className={styles.info}>The Mayan calendar is compromised of 3 interconnected cycles:<br></br> <span className={styles.calendarNames}>the Tzolk’in, the Haab, and the Long Count.</span><br></br>These calendars are mathematically precise and deeply rooted in traditions and myths, often tied to stories about the world's creation. <br></br>In many parts of Guatemala (and Mexico), the Mayan calendar is still used today. <br></br><br></br>This converter focuses on the Tzolk’in and Haab calendars, offering you an insight into the signifcance of the numbers and glyphs for the given date.</p>
+          <p className={styles.info}>The Mayan calendar is compromised of 3 interconnected cycles:<br></br> <span className={styles.calendarNames}>the Tzolk’in, the Haab, and the Long Count.</span><br></br>These calendars are mathematically precise and deeply rooted in traditions and myths, often tied to stories about the world's creation. <br></br>In many parts of Guatemala (and Mexico), the Mayan calendar is still used today. <br></br><br></br>This converter focuses on the Tzolk’in and Haab calendars, offering you an insight into the significance of the numbers and glyphs for the given date.</p>
           <DateInput
             setHaabDate={setHaabDate}
             setTzolkinDate={setTzolkinDate}
