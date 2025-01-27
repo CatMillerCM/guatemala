@@ -28,6 +28,7 @@
   font-weight: bold;
   width: max-content;
   min-width: 9rem;
+  max-height: 3rem;
   align-self: center;
 }
 
