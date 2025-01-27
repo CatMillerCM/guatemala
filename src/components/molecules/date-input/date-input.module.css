@@ -5,9 +5,9 @@
 }
 
 .label {
-  font-weight: bold;
-  font-size: var(--font-size-small);
   color: var(--color-mayan-blue);
+  font-size: var(--font-size-small);
+  font-weight: bold;
 }
 
 .buttons {
@@ -17,18 +17,19 @@
 }
 
 .input {
-  max-height: 2.44rem;
-  font-size: var(--font-size-small);
-  border-radius: 4px;
-  text-align: center;
-  color: var(--color-mayan-red);
-  background-color: transparent;
-  border: 2px solid var(--color-mayan-red);
-  font-family: inherit;
-  font-weight: bold;
+  align-self: center;
   width: max-content;
   min-width: 8rem;
-  align-self: center;
+  min-height: 2rem;
+  max-height: 2.44rem;
+  color: var(--color-mayan-red);
+  font-family: inherit;
+  font-size: var(--font-size-small);
+  font-weight: bold;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid var(--color-mayan-red);
+  border-radius: 4px;
 }
 
 @media screen and (min-width: 768px) {

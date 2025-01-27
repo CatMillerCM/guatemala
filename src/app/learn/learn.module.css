@@ -20,11 +20,13 @@
   color: var(--color-mayan-brown);
 }
 
-.main a:nth-child(2) button, .main a:nth-child(6) button {
+.main a:nth-child(2) button,
+.main a:nth-child(6) button {
   background-color: var(--color-mayan-blue);
 }
 
-.main a:nth-child(3) button, .main a:nth-child(5) button {
+.main a:nth-child(3) button,
+.main a:nth-child(5) button {
   background-color: var(--color-mayan-red);
 }
 

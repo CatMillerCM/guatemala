@@ -3,6 +3,6 @@
 }
 
 .button:disabled {
-  background-color: #617e77;
   color: #c9c9b1;
+  background-color: #617e77;
 }
