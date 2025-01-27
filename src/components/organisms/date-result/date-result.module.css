@@ -5,6 +5,7 @@
 
 .shareResult {
   background-color: var(--color-mayan-beige);
+  background-image: url('./../../../assets/background.webp');
   padding: 2rem 1.5rem;
 }
 

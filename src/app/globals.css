@@ -10,7 +10,7 @@
   --color-mayan-blue: #1e3b8a;
   --color-mayan-green: #045945;
   --color-mayan-brown: #634e30;
-  --color-mayan-beige: #f5f5dc;
+  --color-mayan-beige: #e6e1d4;
   --color-black: #000;
 
   /* Font Sizes */
@@ -24,6 +24,7 @@ body {
   height: 100%;
   margin: 0;
   background-color: var(--color-mayan-beige);
+  background-image: url('./../assets/background.webp');
 }
 
 h1 {
