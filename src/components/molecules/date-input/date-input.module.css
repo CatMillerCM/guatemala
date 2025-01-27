@@ -27,10 +27,8 @@
   font-family: inherit;
   font-weight: bold;
   width: max-content;
-  /* min-width: 8rem;
-  max-height: 2.5rem; */
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  min-width: 8rem;
+  max-height: 2rem;
   align-self: center;
 }
 
