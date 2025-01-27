@@ -27,6 +27,7 @@
   font-family: inherit;
   font-weight: bold;
   width: max-content;
+  min-width: 15rem;
   align-self: center;
 }
 
