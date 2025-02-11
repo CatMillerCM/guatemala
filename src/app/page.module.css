@@ -2,26 +2,25 @@
   border: solid 4px var(--color-mayan-blue);
   outline: solid 3px var(--color-mayan-red);
   outline-offset: 3px;
-  height: calc(100dvh - 2.5rem);
   margin: 1rem;
+}
+
+.mainResult, .mainInput {
+  text-align: center;
+  height: 100%;
+  min-height: calc(100dvh - 2.5rem);
 }
 
 .mainResult {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  height: 100%;
-  min-height: calc(100dvh - 2.5rem);
 }
 
 .mainInput {
   display: grid;
   grid-template-rows: auto;
-  text-align: center;
-  overflow: hidden;
   gap: 0.5rem;
-  height: calc(100dvh - 1.25rem);
 }
 
 .inputContainer {
